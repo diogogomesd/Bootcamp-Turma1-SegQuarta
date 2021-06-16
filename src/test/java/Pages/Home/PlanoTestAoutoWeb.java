@@ -7,7 +7,7 @@ public class PlanoTestAoutoWeb {
 
     public WebDriver driver;
     public PlanoTestAoutoWeb(WebDriver driver){
-        this.driver = driver;
+       this.driver = driver;
     }
 
     public void PlanoTestAoutoWebXpath(WebDriver driver) {
@@ -15,14 +15,15 @@ public class PlanoTestAoutoWeb {
         driver.get("https://triosdecapacitacao.eadplataforma.com/checkout/plan/2/");
         JavascriptExecutor ident = (JavascriptExecutor)driver;
         ident.executeScript("document.getElementById('concluir_pedido').click();");
-        JavascriptExecutor email = (JavascriptExecutor)driver;
+
+        /*JavascriptExecutor email = (JavascriptExecutor)driver;
         email.executeScript("document.getElementById('email_login').setAttribute('value','');");
         JavascriptExecutor senha = (JavascriptExecutor)driver;
         senha.executeScript("document.getElementById('senha_login').setAttribute('value','');");
         JavascriptExecutor entrar = (JavascriptExecutor)driver;
-        entrar.executeScript("document.getElementById('btn_login').click();");
-
-        /*driver.navigate().back();
+        entrar.executeScript("document.getElementById('btn_login').click();");*/
+/*
+        driver.navigate().back();
         driver.get("https://triosdecapacitacao.eadplataforma.com/checkout/plan/2/");
         driver.navigate().back();
         //inicia rodapé

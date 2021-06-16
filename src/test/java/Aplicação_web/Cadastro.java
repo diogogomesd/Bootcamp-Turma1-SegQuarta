@@ -1,6 +1,6 @@
 package Aplicação_web;
 
-import Pages.Cadastro.CadastroPage;
+import Page.Cadastro.CadastroPage;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
